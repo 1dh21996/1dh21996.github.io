@@ -5,12 +5,12 @@ title:
   - 갤럭시 카메라 셔터음 무음 설정
 location: 
 description:
-  - ADB Tools 활용한, 갤럭시 카매라 셔터음 무음 설정
+  - ADB Tools 활용한, 갤럭시 카메라 셔터음 무음 설정
 date:
   - 2024-08-26 23:40:00 +0900
 categories:
   - KNOWLEDGE
-  - android
+  - 안드로이드
 tags:
   - 3-TASK/기록
   - 6-PUBLISH/블로그
@@ -77,6 +77,7 @@ mermaid: true
 ## COMMENT
 
 - 'USB 디버깅 허용' 알림 단계에서 허용을 안할 경우, 아래와 같이 에러가 발생합니다.
+
 	```cmd
 	Microsoft Windows [Version 10.0.22631.4037]
 	(c) Microsoft Corporation. All rights reserved.
