@@ -46,6 +46,8 @@ mermaid: true
 - '갤럭시 설정 앱' → '개발자 옵션' 이동 후, '사용 안 함' 옆 토글을 터치해서 '사용 중' 상태로 변경합니다.
 - 하단에 있는 'USB 디버깅' 활성화 해주면 완료입니다.
 
+![1-1.png](https://raw.githubusercontent.com/1dh21996/1dh21996.github.io/main/assets/posts/1-1.png)
+
 ### 2. 스마트폰 연결 & SDK 플랫폼 도구 준비
 
 0. 폰과 PC를 케이블로 연결하고 패턴 · 지문 해제 후, '휴대전화 데이터 접근 허용' 알림 허용하면, 또 'USB 디버깅 허용' 알림 나오는데, 허용합니다.
@@ -53,14 +55,14 @@ mermaid: true
 2. 압축 해제하면 'platform-tools'폴더가 나오는데, 이름을 adb로 변경한 뒤, '복사'합니다.
 3. C 드라이브에 '붙여넣기' 합니다.
 
-![1-1.png](https://raw.githubusercontent.com/1dh21996/1dh21996.github.io/main/assets/posts/1-1.png)
+![1-2.png](https://raw.githubusercontent.com/1dh21996/1dh21996.github.io/main/assets/posts/1-2.png)
 
 ### 3. 명령 프롬프트 열기
 
 4. Windows 11 버전 기준, `windows` 키 입력하면 검색창 뜨는데, 바로 'cmd' 입력하면 '명령 프롬프트'가 뜹니다.
 5. 우측 패널에서 '관리자 권한' 눌러 실행합니다.
 
-![1-2.png](https://raw.githubusercontent.com/1dh21996/1dh21996.github.io/main/assets/posts/1-2.png)
+![1-3.png](https://raw.githubusercontent.com/1dh21996/1dh21996.github.io/main/assets/posts/1-3.png)
 
 ### 4. 명령 실행
 
@@ -70,7 +72,7 @@ mermaid: true
 9. `adb shell settings put system csc_pref_camera_forced_shuttersound_key 0` 명령으로 셔터음을 무음으로 변경합니다.
 10. `C:\adb` 문구 출력 되는지 확인합니다. 
 
-![1-3.png](https://raw.githubusercontent.com/1dh21996/1dh21996.github.io/main/assets/posts/1-3.png)
+![1-4.png](https://raw.githubusercontent.com/1dh21996/1dh21996.github.io/main/assets/posts/1-4.png)
 
 <br>
 
@@ -103,4 +105,5 @@ mermaid: true
 
 | DATE             | DETAIL      |
 | ---------------- | ----------- |
-| 240826(월) 23:40 | 포스팅 게시 | 
+| 240826(월) 23:40 | 포스트 게시 |
+| 240827(화) 20:03 | 포스트 수정 | 
